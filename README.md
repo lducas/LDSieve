@@ -1,8 +1,8 @@
 # LDSieve
 
-**version 0.9** -- *Release date: Sptember 2015*
+**version 0.9** -- *Release date: September 2015*
 
-**Authors:** Leo Ducas <leo@ducas.org> 
+**Author:** Leo Ducas
 
 LDSieve is open-source software distributed under the terms of the GNU
 General Public License. See the file LICENSE for complete details on the licensing. LDSieve is a prototype implementation of the Lattice Sieve Algorithm

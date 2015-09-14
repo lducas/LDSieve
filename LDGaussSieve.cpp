@@ -304,7 +304,7 @@ long* LDGaussSieve(t_BaseGS* base, long MaxVectors,long Psize,double aalpha, dou
 		aaa++;
 		if (!(aaa % 50000))
 			cerr << "Vecs : " << VectorsIndex << "\t" << "Store / Buc : " << TotalSize << "/" 
-				 << number_of_buckets << "Reds :" << ceil(counter / 100000.)/10. <<  "M \t shortest :" << sqrt(ShortestNorm) << endl;
+				 << number_of_buckets << " Reds :" << ceil(counter / 100000.)/10. <<  "M\t shortest :" << sqrt(ShortestNorm) << endl;
 
 
 		if ((VectorsIndex==MaxVectors) || (sqrt(ShortestNorm) <=goal)){
@@ -320,7 +320,7 @@ long* LDGaussSieve(t_BaseGS* base, long MaxVectors,long Psize,double aalpha, dou
 					 << " " << counter << "\n";
 				}
 			cerr << "Vecs : " << VectorsIndex << "\t" << "Store / Buc : " << TotalSize << "/" 
-				 << number_of_buckets << "Reds :" << ceil(counter / 100000.)/10. <<  "M \t shortest :" << sqrt(ShortestNorm) << endl;
+				 << number_of_buckets << "Reds :" << ceil(counter / 100000.)/10. <<  "M\t shortest :" << sqrt(ShortestNorm) << endl;
 			return Shortest;
 			}
 

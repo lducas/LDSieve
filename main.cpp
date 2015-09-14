@@ -64,7 +64,7 @@ int main(int argc, char *argv[]){
 
   cerr << "Reading matrix from stdin ... ";
   cin >> B_ZZ;
-  cerr << "Done";
+  cerr << "Done" << endl;
 
   n = B_ZZ.NumCols();
 
